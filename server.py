@@ -24,4 +24,4 @@ def get_coords():
         return jsonify({"lat": 0, "lon": 0, "timestamp": None})
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=5000)
+    app.run(host='0.0.0.0', port=5000)
